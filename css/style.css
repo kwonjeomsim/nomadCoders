@@ -45,6 +45,15 @@ img {
   border: 5px solid seagreen;
 }
 
+.text-input + input {
+  position: relative;
+  top: -3px;
+  font-size: 20px;
+  background-color: lavender;
+  border: 1px solid plum;
+  padding: 20px;
+}
+
 footer {
   max-height: 65px;
   top: 85%;
